@@ -1,6 +1,7 @@
 {
   "mainnet": {
     "uniswap": {
+      "useOnlyNewABI": false,
       "0xF9ab542616A0C8fA94e41c968622C3b2367F5ad1": false,
       "0xd40A5C0642721c0A6C6db381ccd868aa646AE10a": false,
       "0x52fC153d440c669c1Fc8779A0508795832a51167": false,
@@ -11,6 +12,100 @@
       "0x91e0FBD44472511f815680382f5E781C3B8285B4": false,
       "0x74e3D57025Bb1fB972eE336C93dF87c179250F5E": false,
       "0x3c0ACF2AC603837eFA8B247A54b42b71e706ef71": false
+    }
+  },
+  "bsc": {
+    "pancakeswap": {
+      "useOnlyNewABI": false,
+      "0x7deA5e8d6269a02220608d07Ae5feaE7de856868": false,
+      "0xB99F1Ce0f1C95422913FAF5b1ea980BbC580c14a": false,
+      "0x5db61A5f05580Cf620a9d0f9266E7432811DC309": false,
+      "0xc2cdc718908667F1ce99E69d02a7F420bCDb34C2": false,
+      "0x4915342AAD6F4D2882cc41543BCE527448507930": false,
+      "0x39721e66193D8a6eF8052246e95c23B6fBdD5fe5": false,
+      "0x57eee8ca983FcA38dFE767070F2cE251D4e5E9e1": false,
+      "0xFEB0819A3d00EACf1D8F593D2538C33d34b76274": false
+    }
+  },
+  "arbitrum": {
+    "uniswap": {
+      "useOnlyNewABI": false,
+      "0x58959803C761BfC29B056E74EE554110Db17Ecd7": false,
+      "0x7548a71f63a2402413E9647798084E8802C288c2": false,
+      "0xABda61ECDbd45a02bFc5fcE2141f76D50D19bFBD": false,
+      "0x38DbE61d7bE5f3579089e60c7ae7064012BcCC7A": false,
+      "0x48E76CC26f53DF0Ebb98C050d83c650bFC6de46d": false,
+      "0xe34ACd7D13CA652A9743b27f275adB09Ebc6Fe8c": false,
+      "0x38260933F55db1e115Df33237bf502E1D9D33eEE": false,
+      "0xDA578B1e1F07549259140081CC73926B5a49232d": false,
+      "0x59469Bf08CDaAF043aE5DAF80641BEDfdd0455B2": false,
+      "0xD3387fcCD6ADaaBa06995058Eba21E199323F256": false,
+      "0x4E6eD10f918058c8f7FcE4BF7BC9E3D88e0c59B2": false,
+      "0x61D4FD306cFF83108a81bE223356e09D5b40c2aD": false
+    },
+    "camelot": {
+      "useOnlyNewABI": false,
+      "0xF6A3632451389Afcc2A7CB396A83438D09288086": false,
+      "0x110f77421A7EA1BcEb041b4C1c6f59A9df708e99": false,
+      "0x5f270dCBf972e8Da577c9ae1eBB6F495EeFeE14B": false
+    },
+    "sushiswap": {
+      "useOnlyNewABI": false,
+      "0xB65Dc1b52827c1C1d743E3ddd62fF4B7998Eb3AA": false,
+      "0x24d56598Ac401dC4AcfBeb7B28a8cAef518684D6": false,
+      "0xFFEDFcA104772AdBC3454F7658008DB3480369B6": false,
+      "0xaA149AaC0dbaBF5B73bC81EB013463ef795Dd479": false
+    }
+  },
+  "polygon": {
+    "quickswap": {
+      "useOnlyNewABI": false,
+      "0xB99F1Ce0f1C95422913FAF5b1ea980BbC580c14a": false,
+      "0x04f7a8FD669B6e84c3A642f6f48B1200A4B1E1E2": false
+    },
+    "retro": {
+      "useOnlyNewABI": false,
+      "0xe156eD4854a82a176F7D254286E0E124a01dF3bD": false,
+      "0xF09F8e63E8B67b0445Ad9f496837569886B900c1": false,
+      "0xf54d9A4c3196aE3bAAd16BC54ffaa312282f18f4": false,
+      "0x2c2392bA7D5355b5fA5fAcC8f0f1d4CaA7D91a59": false,
+      "0x9F885aD7cA5a02Ec0d5a087FCE7028ceD9ACb9E0": false
+    }
+  },
+  "mantle": {
+    "agni": {
+      "useOnlyNewABI": false,
+      "0x4a9CCa530f6659D6f609b23Ed6095867799E0194": false,
+      "0xa3383ed17128f04fce9134EaA23f1c96eEC0C52D": false,
+      "0xc31c7417749ab30c6209839c6e198EC2ed65C33F": false,
+      "0x6119eAaFE56fBE09f5110139F2485F8734b1C87F": false,
+      "0x67a836d2c1E816aD8e2D6E136860F0DBac217586": false,
+      "0x740d93aca95cF943e4440A5E718d56b56a00321e": false,
+      "0x090C06489a20d616D5319d736b8efa38f5B04Cd8": false,
+      "0x82bBe17fe40c692b14Ff4b014eB3A9b5Eaaf3aA5": false
+    },
+    "izumi": {
+      "useOnlyNewABI": true,
+      "0xE441d252a5686450543C5FfF85Bb06f7c9B6843e": true,
+      "0x9cB639eB1320552B3f5a288549A5b6aB0BE9623B": true,
+      "0xFe4eed7EFf1d4f7E0b8a6bAA28f466882CFB420A": true,
+      "0x4e8e63591A45B357614c2B342f592942c012EFea": true
+    },
+    "fusionX": {
+      "useOnlyNewABI": true,
+      "0x6b17Cac5905bC7D91D1ece66E18BE64fCC761BfC": true,
+      "0x92B995c72c0019CaDF903653F0E281a11d5937b7": true,
+      "0xa5167B8F9B7B62e3107CfDAd1bA8934e217DA60B": true,
+      "0x1e7025Af942fBc20781d0f848FC7009c69FF7c08": true,
+      "0x923310f28D3e24a5e2599aa8Ee3d4a0d7b8FB891": true
+    }
+  },
+  "base": {
+    "uniswap": {
+      "useOnlyNewABI": false,
+      "0xd1c0CB290BA214a79AC31B8B3FB3F3eD00B88612": false,
+      "0x7dCCC722fC4E735339e3BA21440dB15B22e0C162": false,
+      "0xb7ae5Ff93690d1F4Cd2fDC9F818D4D9DaA73EcC4": false
     }
   }
 }
