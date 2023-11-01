@@ -12,6 +12,9 @@
       "0x91e0FBD44472511f815680382f5E781C3B8285B4": false,
       "0x74e3D57025Bb1fB972eE336C93dF87c179250F5E": false,
       "0x3c0ACF2AC603837eFA8B247A54b42b71e706ef71": false
+    },
+    "pancakeswap": {
+      "useOnlyNewABI": true
     }
   },
   "bsc": {
@@ -98,6 +101,9 @@
       "0xa5167B8F9B7B62e3107CfDAd1bA8934e217DA60B": true,
       "0x1e7025Af942fBc20781d0f848FC7009c69FF7c08": true,
       "0x923310f28D3e24a5e2599aa8Ee3d4a0d7b8FB891": true
+    },
+    "swapsicle": {
+      "useOnlyNewABI": true
     }
   },
   "base": {
