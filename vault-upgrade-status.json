@@ -113,6 +113,15 @@
     },
     "swapsicle": {
       "useOnlyNewABI": true
+    },
+    "manta": {
+      "useOnlyNewABI": true
+    },
+    "zeta_testnet": {
+      "useOnlyNewABI": true
+    },
+    "linea": {
+      "useOnlyNewABI": true
     }
   },
   "base": {
