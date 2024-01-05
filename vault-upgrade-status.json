@@ -1,7 +1,7 @@
 {
   "mainnet": {
     "uniswap": {
-      "useOnlyNewABI": false,
+      "useOnlyNewABI": true,
       "0xF9ab542616A0C8fA94e41c968622C3b2367F5ad1": false,
       "0xd40A5C0642721c0A6C6db381ccd868aa646AE10a": false,
       "0x52fC153d440c669c1Fc8779A0508795832a51167": false,
