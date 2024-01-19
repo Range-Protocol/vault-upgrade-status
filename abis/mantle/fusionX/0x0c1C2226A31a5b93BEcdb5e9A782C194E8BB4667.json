@@ -1,0 +1,1402 @@
+[
+  {
+    "type": "constructor",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "remainingAmount0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "remainingAmount1",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "addLiquidity",
+    "inputs": [
+      {
+        "type": "int24",
+        "name": "newLowerTick",
+        "internalType": "int24"
+      },
+      {
+        "type": "int24",
+        "name": "newUpperTick",
+        "internalType": "int24"
+      },
+      {
+        "type": "uint256",
+        "name": "amount0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256[2]",
+        "name": "maxAmounts",
+        "internalType": "uint256[2]"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "allowance",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "owner",
+        "internalType": "address"
+      },
+      {
+        "type": "address",
+        "name": "spender",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "approve",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "spender",
+        "internalType": "address"
+      },
+      {
+        "type": "uint256",
+        "name": "amount",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "balanceOf",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "account",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "amount0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "burn",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "burnAmount",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256[2]",
+        "name": "minAmounts",
+        "internalType": "uint256[2]"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "collectManager",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint8",
+        "name": "",
+        "internalType": "uint8"
+      }
+    ],
+    "name": "decimals",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "decreaseAllowance",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "spender",
+        "internalType": "address"
+      },
+      {
+        "type": "uint256",
+        "name": "subtractedValue",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+      }
+    ],
+    "name": "factory",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "fusionXV3MintCallback",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "amount0Owed",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1Owed",
+        "internalType": "uint256"
+      },
+      {
+        "type": "bytes",
+        "name": "",
+        "internalType": "bytes"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "fusionXV3SwapCallback",
+    "inputs": [
+      {
+        "type": "int256",
+        "name": "amount0Delta",
+        "internalType": "int256"
+      },
+      {
+        "type": "int256",
+        "name": "amount1Delta",
+        "internalType": "int256"
+      },
+      {
+        "type": "bytes",
+        "name": "",
+        "internalType": "bytes"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "fee0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "fee1",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "getCurrentFees",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "amount0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "mintAmount",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "getMintAmounts",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "amount0Max",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1Max",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "bytes32",
+        "name": "positionID",
+        "internalType": "bytes32"
+      }
+    ],
+    "name": "getPositionID",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "amount0Current",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1Current",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "getUnderlyingBalances",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "amount0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "getUnderlyingBalancesByShare",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "shares",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "tuple[]",
+        "name": "",
+        "internalType": "struct IRangeProtocolVault.UserVaultInfo[]",
+        "components": [
+          {
+            "type": "address"
+          },
+          {
+            "type": "uint256"
+          },
+          {
+            "type": "uint256"
+          }
+        ]
+      }
+    ],
+    "name": "getUserVaults",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "fromIdx",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "toIdx",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "inThePosition",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "increaseAllowance",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "spender",
+        "internalType": "address"
+      },
+      {
+        "type": "uint256",
+        "name": "addedValue",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "initialize",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "_pool",
+        "internalType": "address"
+      },
+      {
+        "type": "int24",
+        "name": "_tickSpacing",
+        "internalType": "int24"
+      },
+      {
+        "type": "bytes",
+        "name": "data",
+        "internalType": "bytes"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "int24",
+        "name": "",
+        "internalType": "int24"
+      }
+    ],
+    "name": "lowerTick",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+      }
+    ],
+    "name": "manager",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "managerBalance0",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "managerBalance1",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint16",
+        "name": "",
+        "internalType": "uint16"
+      }
+    ],
+    "name": "managingFee",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "amount0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "amount1",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "mint",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "mintAmount",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256[2]",
+        "name": "maxAmounts",
+        "internalType": "uint256[2]"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "mintStarted",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "string",
+        "name": "",
+        "internalType": "string"
+      }
+    ],
+    "name": "name",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "pause",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "paused",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint16",
+        "name": "",
+        "internalType": "uint16"
+      }
+    ],
+    "name": "performanceFee",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "contract IFusionXV3Pool"
+      }
+    ],
+    "name": "pool",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "bytes32",
+        "name": "",
+        "internalType": "bytes32"
+      }
+    ],
+    "name": "proxiableUUID",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "pullFeeFromPool",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "removeLiquidity",
+    "inputs": [
+      {
+        "type": "uint256[2]",
+        "name": "minAmounts",
+        "internalType": "uint256[2]"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "renounceOwnership",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "int256",
+        "name": "amount0",
+        "internalType": "int256"
+      },
+      {
+        "type": "int256",
+        "name": "amount1",
+        "internalType": "int256"
+      }
+    ],
+    "name": "swap",
+    "inputs": [
+      {
+        "type": "bool",
+        "name": "zeroForOne",
+        "internalType": "bool"
+      },
+      {
+        "type": "int256",
+        "name": "swapAmount",
+        "internalType": "int256"
+      },
+      {
+        "type": "uint160",
+        "name": "sqrtPriceLimitX96",
+        "internalType": "uint160"
+      },
+      {
+        "type": "uint256",
+        "name": "minAmountIn",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "string",
+        "name": "",
+        "internalType": "string"
+      }
+    ],
+    "name": "symbol",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "int24",
+        "name": "",
+        "internalType": "int24"
+      }
+    ],
+    "name": "tickSpacing",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "contract IERC20Upgradeable"
+      }
+    ],
+    "name": "token0",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "contract IERC20Upgradeable"
+      }
+    ],
+    "name": "token1",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "totalSupply",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "transfer",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "to",
+        "internalType": "address"
+      },
+      {
+        "type": "uint256",
+        "name": "amount",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+      }
+    ],
+    "name": "transferFrom",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "from",
+        "internalType": "address"
+      },
+      {
+        "type": "address",
+        "name": "to",
+        "internalType": "address"
+      },
+      {
+        "type": "uint256",
+        "name": "amount",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "transferOwnership",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "newManager",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "unpause",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "updateFees",
+    "inputs": [
+      {
+        "type": "uint16",
+        "name": "newManagingFee",
+        "internalType": "uint16"
+      },
+      {
+        "type": "uint16",
+        "name": "newPerformanceFee",
+        "internalType": "uint16"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "updateTicks",
+    "inputs": [
+      {
+        "type": "int24",
+        "name": "_lowerTick",
+        "internalType": "int24"
+      },
+      {
+        "type": "int24",
+        "name": "_upperTick",
+        "internalType": "int24"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "upgradeTo",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "newImplementation",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "payable",
+    "outputs": [],
+    "name": "upgradeToAndCall",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "newImplementation",
+        "internalType": "address"
+      },
+      {
+        "type": "bytes",
+        "name": "data",
+        "internalType": "bytes"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "int24",
+        "name": "",
+        "internalType": "int24"
+      }
+    ],
+    "name": "upperTick",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "userCount",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "bool",
+        "name": "exists",
+        "internalType": "bool"
+      },
+      {
+        "type": "uint256",
+        "name": "token0",
+        "internalType": "uint256"
+      },
+      {
+        "type": "uint256",
+        "name": "token1",
+        "internalType": "uint256"
+      }
+    ],
+    "name": "userVaults",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+      }
+    ],
+    "name": "users",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+      }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "AdminChanged",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "previousAdmin",
+        "indexed": false
+      },
+      {
+        "type": "address",
+        "name": "newAdmin",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Approval",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "owner",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "spender",
+        "indexed": true
+      },
+      {
+        "type": "uint256",
+        "name": "value",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "BeaconUpgraded",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "beacon",
+        "indexed": true
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Burned",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "receiver",
+        "indexed": true
+      },
+      {
+        "type": "uint256",
+        "name": "burnAmount",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount0Out",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount1Out",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "FeesEarned",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "feesEarned0",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "feesEarned1",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "FeesUpdated",
+    "inputs": [
+      {
+        "type": "uint16",
+        "name": "managingFee",
+        "indexed": false
+      },
+      {
+        "type": "uint16",
+        "name": "performanceFee",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "InThePositionStatusSet",
+    "inputs": [
+      {
+        "type": "bool",
+        "name": "inThePosition",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Initialized",
+    "inputs": [
+      {
+        "type": "uint8",
+        "name": "version",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "LiquidityAdded",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "liquidityMinted",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tickLower",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tickUpper",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount0In",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount1In",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "LiquidityRemoved",
+    "inputs": [
+      {
+        "type": "uint256",
+        "name": "liquidityRemoved",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tickLower",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "tickUpper",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount0Out",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount1Out",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "MintStarted",
+    "inputs": [],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Minted",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "receiver",
+        "indexed": true
+      },
+      {
+        "type": "uint256",
+        "name": "mintAmount",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount0In",
+        "indexed": false
+      },
+      {
+        "type": "uint256",
+        "name": "amount1In",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "OwnershipTransferred",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "previousManager",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "newManager",
+        "indexed": true
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Paused",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "account",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Swapped",
+    "inputs": [
+      {
+        "type": "bool",
+        "name": "zeroForOne",
+        "indexed": false
+      },
+      {
+        "type": "int256",
+        "name": "amount0",
+        "indexed": false
+      },
+      {
+        "type": "int256",
+        "name": "amount1",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "TicksSet",
+    "inputs": [
+      {
+        "type": "int24",
+        "name": "lowerTick",
+        "indexed": false
+      },
+      {
+        "type": "int24",
+        "name": "upperTick",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Transfer",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "from",
+        "indexed": true
+      },
+      {
+        "type": "address",
+        "name": "to",
+        "indexed": true
+      },
+      {
+        "type": "uint256",
+        "name": "value",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Unpaused",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "account",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Upgraded",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "implementation",
+        "indexed": true
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "error",
+    "name": "InvalidBurnAmount",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidManagingFee",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidMintAmount",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidPerformanceFee",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "InvalidTicksSpacing",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "LiquidityAlreadyAdded",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "MintNotAllowed",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "MintNotStarted",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "NotAllowedToUpdateTicks",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "OnlyFactoryAllowed",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "OnlyPoolAllowed",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "SlippageExceedThreshold",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "TicksOutOfRange",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "ZeroManagerAddress",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "ZeroMintAmount",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "ZeroUnderlyingBalance",
+    "inputs": []
+  }
+]
